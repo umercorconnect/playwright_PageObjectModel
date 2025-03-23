@@ -4,7 +4,7 @@ exports.LoginPage = class LoginPage {
         this.page = page
         this.username_textbox = page.getByRole('textbox', { name: 'Username' })
         this.password_textbox = page.getByRole('textbox', { name: 'Password' })
-        this.login_button = page.getByRole('button', { name: ' Login' })
+        this.login_button = page.getByRole('button', { name: 'Login' })
 
     }
 
